@@ -7,8 +7,8 @@ And Modified by Farzain - zFz ( Faraaz )
 */
 require_once('./line_class.php');
 
-$channelAccessToken = 'ACCESS TOKEN ENTE'; //ppISLYt+9AE9oTQMRFKqWHCLFnbNLK19eZjbMe4/1Ws1qCbcVACZlILLW0YU8qAPQQd/4rwSsUC5pwEeb2xlJYxkz/mmxlJJkW/krX7zwPdcRbfRngvojODpsPFtzfei30eaDmT9MRsXgju8hVqQggdB04t89/1O/w1cDnyilFU=
-$channelSecret = 'SECRET TOKEN ENTE';//1c7b890ba0aded2c58207cc4ffaa4345
+$channelAccessToken = 'ppISLYt+9AE9oTQMRFKqWHCLFnbNLK19eZjbMe4/1Ws1qCbcVACZlILLW0YU8qAPQQd/4rwSsUC5pwEeb2xlJYxkz/mmxlJJkW/krX7zwPdcRbfRngvojODpsPFtzfei30eaDmT9MRsXgju8hVqQggdB04t89/1O/w1cDnyilFU='
+$channelSecret = '1c7b890ba0aded2c58207cc4ffaa4345'
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 
@@ -35,7 +35,7 @@ if($message['type']=='sticker')
 }
 else
 $pesan=str_replace(" ", "%20", $pesan_datang);
-$key = 'API KEY SIMSIMI ENTE'; //f49d2de9-bd5b-4bee-8122-e9d22b9a029a
+$key = 'f49d2de9-bd5b-4bee-8122-e9d22b9a029a'
 $url = 'http://sandbox.api.simsimi.com/request.p?key='.$key.'&lc=id&ft=1.0&text='.$pesan;
 $json_data = file_get_contents($url);
 $url=json_decode($json_data,1);
