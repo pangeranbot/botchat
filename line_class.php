@@ -30,8 +30,8 @@ class LINEBotTiny
 {
     public function __construct($channelAccessToken, $channelSecret)
     {
-        $this->channelAccessToken = $channelAccessToken; ='ppISLYt+9AE9oTQMRFKqWHCLFnbNLK19eZjbMe4/1Ws1qCbcVACZlILLW0YU8qAPQQd/4rwSsUC5pwEeb2xlJYxkz/mmxlJJkW/krX7zwPdcRbfRngvojODpsPFtzfei30eaDmT9MRsXgju8hVqQggdB04t89/1O/w1cDnyilFU=''
-        $this->channelSecret = $channelSecret;
+        $this->channelAccessToken = $channelAccessToken;ppISLYt+9AE9oTQMRFKqWHCLFnbNLK19eZjbMe4/1Ws1qCbcVACZlILLW0YU8qAPQQd/4rwSsUC5pwEeb2xlJYxkz/mmxlJJkW/krX7zwPdcRbfRngvojODpsPFtzfei30eaDmT9MRsXgju8hVqQggdB04t89/1O/w1cDnyilFU=
+        $this->channelSecret = $channelSecret;1c7b890ba0aded2c58207cc4ffaa4345
     }
 	
 	
